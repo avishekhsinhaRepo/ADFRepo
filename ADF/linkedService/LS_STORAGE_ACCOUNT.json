@@ -1,0 +1,13 @@
+{
+	"name": "LS_STORAGE_ACCOUNT",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Link Service to Storage Account",
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=adfstgaccount;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDVFRkI5RDYwLTQ0QzItNEZDMS04NDgyLTI5RDQ3NUUwOTJCMV9jZmU1NzMwZS0yOGM2LTQ2NzgtYmY1ZS0wZTlmOTcxNjBjNDAiDQp9"
+		}
+	}
+}
