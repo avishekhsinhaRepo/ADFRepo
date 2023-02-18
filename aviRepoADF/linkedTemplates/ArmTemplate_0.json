@@ -71,15 +71,19 @@
 				},
 				"schema": [
 					{
+						"name": "CustomerCode",
 						"type": "String"
 					},
 					{
+						"name": "Name",
 						"type": "String"
 					},
 					{
+						"name": "Phone",
 						"type": "String"
 					},
 					{
+						"name": "Address",
 						"type": "String"
 					}
 				]
@@ -99,7 +103,26 @@
 				},
 				"annotations": [],
 				"type": "AzureSqlTable",
-				"schema": [],
+				"schema": [
+					{
+						"name": "CUSTOMER_CODE",
+						"type": "int",
+						"precision": 10
+					},
+					{
+						"name": "CUSTOMER_NAME",
+						"type": "varchar"
+					},
+					{
+						"name": "CUSTOMER_PHONE",
+						"type": "int",
+						"precision": 10
+					},
+					{
+						"name": "CUSTOMER_ADDRESS",
+						"type": "varchar"
+					}
+				],
 				"typeProperties": {
 					"schema": "dbo",
 					"table": "CUSTOMER"
