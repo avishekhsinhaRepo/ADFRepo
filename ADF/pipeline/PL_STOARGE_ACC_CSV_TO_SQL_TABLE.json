@@ -37,8 +37,9 @@
 						"mappings": [
 							{
 								"source": {
+									"name": "CustomerCode",
 									"type": "String",
-									"ordinal": 1
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "CUSTOMER_CODE",
@@ -48,8 +49,9 @@
 							},
 							{
 								"source": {
+									"name": "Name",
 									"type": "String",
-									"ordinal": 2
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "CUSTOMER_NAME",
@@ -59,8 +61,9 @@
 							},
 							{
 								"source": {
+									"name": "Phone",
 									"type": "String",
-									"ordinal": 3
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "CUSTOMER_PHONE",
@@ -70,8 +73,9 @@
 							},
 							{
 								"source": {
+									"name": "Address",
 									"type": "String",
-									"ordinal": 4
+									"physicalType": "String"
 								},
 								"sink": {
 									"name": "CUSTOMER_ADDRESS",
