@@ -20,15 +20,19 @@
 		},
 		"schema": [
 			{
+				"name": "CustomerCode",
 				"type": "String"
 			},
 			{
+				"name": "Name",
 				"type": "String"
 			},
 			{
+				"name": "Phone",
 				"type": "String"
 			},
 			{
+				"name": "Address",
 				"type": "String"
 			}
 		]
