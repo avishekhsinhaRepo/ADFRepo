@@ -1,0 +1,47 @@
+{
+	"name": "DS_CUSTOMER_DB_ORDERS_TABLE",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_CUSTOMER_DB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ORDERID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "PRODUCTID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "CUSTOMERID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "UNIT_PRICE",
+				"type": "varchar"
+			},
+			{
+				"name": "QUANTITY",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "INSERT_TIME_STAMP",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "ORDERS"
+		}
+	}
+}
